@@ -2,6 +2,7 @@ import cv2,time
 from datetime import datetime
 import pandas
 
+
 first_frame=None
 video=cv2.VideoCapture(0)
 
