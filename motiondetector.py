@@ -46,8 +46,8 @@ while True:
         times.append(datetime.now())
 
 
-    #cv2.imshow("gray",gray)
-    #cv2.imshow("delta_frame",delta_frame)
+    cv2.imshow("gray",gray)
+    cv2.imshow("delta_frame",delta_frame)
     cv2.imshow("thresh_delta",thresh_delta)
     cv2.imshow("Color",frame)
 
